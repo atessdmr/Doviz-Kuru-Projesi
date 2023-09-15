@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main {
+    height: 180px;
+    width: 600px;
+    background-color: rgb(253, 221, 180);
+    text-align: center;
+    border: 4px solid rgb(211, 187, 171);
+    border-radius: 12px;
+}
+
+#satirBasligi {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4ch;
+    padding-top: 20px;
+    color: rgb(194, 118, 67);
+}
+
+.renkDeneme {
+    /*---------------------------------------------------------------*/
+    color: rgb(150, 105, 53);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(253, 221, 180);
+
+}
+
+.miktarlarDiv {
+    padding-top: 15px;
+
+
+}
+
+#miktarGirin {
+    width: 150px;
+    height: 24px;
+
+}
+
+#birinciParaBirimi {
+    width: 80px;
+    margin-left: 10px;
+    height: 30px;
+}
+
+#ikinciParaBirimi {
+    width: 80px;
+    margin-left: 10px;
+    height: 30px;
+}
+
+#sonuc {
+    width: 150px;
+    margin-left: 10px;
+    height: 24px;
+}
+
+#yapimciText {
+    padding-top: 25px;
+    font-family: Georgia, serif;
+    font-size: 3ch;
+    color: rgb(190, 190, 190);
+}
+
+::placeholder {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
